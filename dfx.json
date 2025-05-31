@@ -1,14 +1,18 @@
 {
   "canisters": {
-    "project_backend": {
-      "main": "src/project_backend/main.mo",
+    "endpoint_backend": {
+      "main": "src/endpoint_backend/main.mo",
+      "type": "motoko"
+    },
+    "data_backend": {
+      "main": "src/data_frontend/main.mo",
       "type": "motoko"
     }
   },
   "defaults": {
     "build": {
       "args": "",
-      "packtool": ""
+      "packtool": "mops sources"
     }
   },
   "output_env_file": ".env",
