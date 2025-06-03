@@ -9,6 +9,7 @@
 
 # dfx temporary files
 .dfx/
+.mops/
 
 # generated files
 **/declarations/
@@ -24,4 +25,4 @@ dist/
 # environment variables
 .env
 
-.mops
+

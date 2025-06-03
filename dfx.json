@@ -1,11 +1,14 @@
 {
   "canisters": {
     "endpoint_backend": {
+      "dependencies": [
+        "data_backend"
+      ],
       "main": "src/endpoint_backend/main.mo",
       "type": "motoko"
     },
     "data_backend": {
-      "main": "src/data_frontend/main.mo",
+      "main": "src/data_backend/main.mo",
       "type": "motoko"
     }
   },
